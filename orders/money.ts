@@ -55,3 +55,5 @@ const a = new Money(100, 'USD');
 const b = new Money(10, 'USD');
 
 console.log(a.isEquals(b));
+console.log(a.add(b));
+console.log(a.subtract(b));
